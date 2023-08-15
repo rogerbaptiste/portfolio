@@ -47,10 +47,10 @@ export const ContactUs = () => {
                     <div className='right'>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='flex'>
-                                <input type='text' placeholder='Name' data-aos='flip-left' required />
-                                <input type='email' placeholder='Your Email' data-aos='flip-right' required />
+                                <input type='text' name = "user_name" placeholder='Name' data-aos='flip-left' required />
+                                <input type='email' name = "user_email" placeholder='Your Email' data-aos='flip-right' required />
                             </div>
-                            <input type='text' placeholder='Subject' data-aos='flip-up' />
+                            <input type='text' name = "subject" placeholder='Subject' data-aos='flip-up' />
                             <textarea name='message' cols='30' rows='10' data-aos='flip-down'></textarea>
                             <button type='submit' data-aos='zoom-in-up'>Submit</button>
                             {!isFormValid && <p>Please fill in all required fields.</p>}
