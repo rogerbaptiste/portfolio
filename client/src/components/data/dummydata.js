@@ -42,7 +42,7 @@ export const home = [
 ]
 export const about = [
     {
-        desc: "Hello! My name is Roger and I am a Full Stack Web Developer with a with a unique journey into the world of coding. It all started out of curiosity, as I was fascinated by how the web works. That initial spark of interest led me on an exciting path of exploration and learning, which eventually brought me to the dynamic realm of software development. With a background in mortgage, banking, and finance, I blend my domain expertise with my love for solving puzzles through code. Constantly embracing new challenges and technologies, I find joy in crafting innovative solutions that simplify complexities and elevate user experiences.",
+        desc: "Hello! My name is Roger and I am a Full Stack Web Developer with a unique journey into the world of coding. It all started out of curiosity, as I was fascinated by how the web works. That initial spark of interest led me on an exciting path of exploration and learning, which eventually brought me to the dynamic realm of software development. With a background in mortgage, banking, and finance, I blend my domain expertise with my love for solving puzzles through code. Constantly embracing new challenges and technologies, I find joy in crafting innovative solutions that simplify complexities and elevate user experiences.",
         desc1: "When I am not coding, I enjoy playing video games, playing basketball, or cooking.",
         cover: "./images/man.png",
     },
