@@ -51,7 +51,7 @@ export const about = [
 export const technology = [
     {
         id: 1,
-        icon: <Settings/>
+        icon: <Settings />
     },
 ]
 
@@ -125,15 +125,19 @@ export const portfolio = [
         cover: "../images/port/port1.jpg",
         name: "",
         category: "development",
-        title: "Projects to be added soon",
+        title: <a href="https://github.com/rogerbaptiste/trezo_project">
+            <p>Trezo: Budget App</p>
+        </a>
     },
-    // {
-    //     id: 2,
-    //     cover: "../images/port/port2.jpg",
-    //     name: "Brand",
-    //     category: "design",
-    //     title: "Brex Logo",
-    // },
+    {
+        id: 1,
+        cover: "../images/port/port1.jpg",
+        name: "",
+        category: "development",
+        title: <a href="https://github.com/Eleanaortega/DojoGroupProject">
+            <p>ChatMe: Realtime Chat Messaging App</p>
+        </a>
+    },
     // {
     //     id: 3,
     //     cover: "../images/port/port3.jpg",
@@ -192,14 +196,14 @@ export const contact = [
         text1: <a href="tel:5618371130"><p>(561) 837.1130</p></a>
     },
     {
-        icon: <LinkedIn/>,
+        icon: <LinkedIn />,
         text1: <a href="https://linkedin.com/in/rogerbaptiste">
             <p>linkedin.com/in/rogerbaptiste</p></a>
 
     },
     {
         icon: <EmailOutlined />,
-        text1:  <a href="mailto:rogerbap@outlook.com"><p>rogerbap@outlook.com</p></a>
+        text1: <a href="mailto:rogerbap@outlook.com"><p>rogerbap@outlook.com</p></a>
         // text2: "rogelainbaptiste@outlook.com"
     },
     {
