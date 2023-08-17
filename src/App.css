@@ -417,7 +417,14 @@ label {
   cursor: pointer;
 }
 
+.contact-box:hover p
+ {
+    color: var(--primaryColor); /* Change the text color to blue on hover */
+}
 
+.connect-line{
+  
+}
 /*---------contact-------------*/
 /*---------footer-------------*/
 footer {
