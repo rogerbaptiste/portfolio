@@ -43,7 +43,7 @@ export const ContactUs = () => {
         <div className='contact'>
             <div className='container'>
                 <Heading title='Keep In Touch' />
-                <p>Fill out this form and let's </p>
+                <p className="connect-line">Drop a line and let's connect!</p>
                 <div className='content flexsb'>
                     <div className='right'>
                         <form ref={form} onSubmit={sendEmail}>
@@ -60,7 +60,7 @@ export const ContactUs = () => {
                     </div>
                     <div className='left'>
                         {contact.map((item) => (
-                            <div className='box' data-aos='zoom-in' key={item.id}>
+                            <div className='contact-box' data-aos='zoom-in' key={item.id}>
                                 <i>{item.icon}</i>
                                 <p>{item.text1}</p>
                                 <p>{item.text2}</p>
