@@ -9,7 +9,7 @@ export const Technology = () => {
     
             <div id='techimgs' className="">
             <Heading title='Technology'/>
-            <p className="valign-wrapper"> Some of the technology that powers my projects</p>
+            <p className="valign-wrapper"> Here's some of the technology that powers my projects</p>
                 <div className='techrow row col s14 valign-wrapper'>
                     <div className='techimg'>
                         <img className='techimg' src='./images/htmlcssjs.png' alt='logos' />

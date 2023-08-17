@@ -42,8 +42,8 @@ export const home = [
 ]
 export const about = [
     {
-        desc: "Hello! My name is Roger and I am a Full Stack Web Developer with a unique journey into the world of coding. It all started out of curiosity, as I was fascinated by how the web works. That initial spark of interest led me on an exciting path of exploration and learning, which eventually brought me to the dynamic realm of software development. With a background in mortgage, banking, and finance, I blend my domain expertise with my love for solving puzzles through code. Constantly embracing new challenges and technologies, I find joy in crafting innovative solutions that simplify complexities and elevate user experiences.",
-        desc1: "When I am not coding, I enjoy playing video games, playing basketball, or cooking.",
+        desc: "✌🏿 Hey there! Appreciate you checking out my page. My name is Roger and I am a Full Stack Developer with a unique journey into the world of coding. It all started out of curiosity, as I was fascinated by how the web works. That initial spark of interest led me on an exciting path of exploration and learning, which eventually brought me to the dynamic realm of software development. With a background in mortgage, banking, and finance, I blend my domain expertise with my love for solving puzzles through code. Constantly embracing new challenges and technologies, I hope to learn a lot more and help grow long lasting relationships and connections through fintech services and solutions.",
+        desc1: "When I am not coding, I enjoy playing basketball, video games, cooking, and educating/mentoring youth on financial literacy and career paths.",
         cover: "./images/man.png",
     },
 ]
@@ -130,42 +130,22 @@ export const portfolio = [
         </a>
     },
     {
-        id: 1,
-        cover: "../images/port/port1.jpg",
+        id: 2,
+        cover: "../images/port/demo.jpeg",
         name: "",
         category: "development",
         title: <a href="https://github.com/Eleanaortega/DojoGroupProject">
             <p>ChatMe: Realtime Chat Messaging App</p>
         </a>
     },
-    // {
-    //     id: 3,
-    //     cover: "../images/port/port3.jpg",
-    //     name: "Brand",
-    //     category: "development",
-    //     title: "Brex Logo",
-    // },
-    // {
-    //     id: 4,
-    //     cover: "../images/port/port4.jpg",
-    //     name: "Brand",
-    //     category: "marketing",
-    //     title: "Brex Logo",
-    // },
-    // {
-    //     id: 5,
-    //     cover: "../images/port/port5.jpg",
-    //     name: "Brand",
-    //     category: "design",
-    //     title: "Brex Logo",
-    // },
-    // {
-    //     id: 6,
-    //     cover: "../images/port/port6.jpg",
-    //     name: "Brand",
-    //     category: "development",
-    //     title: "Brex Logo",
-    // },
+    {
+        id: 3,
+        cover: "../images/port/port3.jpg",
+        name: "",
+        category: "Mobile Application",
+        title: "Coming Soon: iOS Bible Trivia App",
+    },
+
 ]
 export const testimonials = [
     {
