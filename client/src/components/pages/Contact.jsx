@@ -43,6 +43,7 @@ export const ContactUs = () => {
         <div className='contact'>
             <div className='container'>
                 <Heading title='Keep In Touch' />
+                <p>Fill out this form and let's </p>
                 <div className='content flexsb'>
                     <div className='right'>
                         <form ref={form} onSubmit={sendEmail}>
