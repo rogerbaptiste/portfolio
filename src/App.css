@@ -139,7 +139,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../public/images/home-bg.png");
+  /* background-image: url("../public/images/home-bg.png"); */
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
