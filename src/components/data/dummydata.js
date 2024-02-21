@@ -10,10 +10,10 @@ export const navlink = [
         text: "About",
     },
 
-    {
-        url: "/services",
-        text: "Services",
-    },
+    // {
+    //     url: "/services",
+    //     text: "Services",
+    // },
     {
         url: "/technology",
         text: "Technology"

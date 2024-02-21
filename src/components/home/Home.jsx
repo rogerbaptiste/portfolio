@@ -4,7 +4,7 @@ import { About } from "../pages/About"
 import { Contact } from "../pages/Contact"
 import { Counter } from "../pages/Counter"
 import { Portfolio } from "../pages/Portfolio"
-import { Services } from "../pages/Services"
+// import { Services } from "../pages/Services"
 import { Testimonials } from "../pages/Testimonials"
 import { Hero } from "./Hero"
 import { Technology } from "../pages/Technology"
@@ -15,7 +15,7 @@ export const Home = () => {
             <Hero />
             <About />
             <Technology />
-            <Services />
+            {/* <Services /> */}
             <Counter />
             <Portfolio />
             <Testimonials />
